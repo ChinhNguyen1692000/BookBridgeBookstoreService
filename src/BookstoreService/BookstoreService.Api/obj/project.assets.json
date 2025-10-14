@@ -4985,11 +4985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Api\\BookstoreService.Api.csproj",
+      "projectUniqueName": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Api\\BookstoreService.Api.csproj",
       "projectName": "BookstoreService.Api",
-      "projectPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Api\\BookstoreService.Api.csproj",
+      "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Api\\BookstoreService.Api.csproj",
       "packagesPath": "C:\\Users\\Chinh\\.nuget\\packages\\",
-      "outputPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Api\\obj\\",
+      "outputPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Chinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5004,17 +5004,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj": {
-              "projectPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj"
+            "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj": {
+              "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj"
             },
-            "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
-              "projectPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj"
+            "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
+              "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj"
             },
-            "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj": {
-              "projectPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj"
+            "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj": {
+              "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj"
             },
-            "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj": {
-              "projectPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj"
+            "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj": {
+              "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
+      "projectUniqueName": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
       "projectName": "BookstoreService.Messaging",
-      "projectPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
+      "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
       "packagesPath": "C:\\Users\\Chinh\\.nuget\\packages\\",
-      "outputPath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Messaging\\obj\\",
+      "outputPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Chinh\\AppData\\Roaming\\NuGet\\NuGet.Config"

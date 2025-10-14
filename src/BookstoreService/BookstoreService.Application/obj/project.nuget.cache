@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PxA9ZeYHnVc=",
+  "dgSpecHash": "9or/5r+Ex94=",
   "success": true,
-  "projectFilePath": "E:\\check-merge\\bookbridge-backend\\src\\Services\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj",
+  "projectFilePath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chinh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Chinh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
