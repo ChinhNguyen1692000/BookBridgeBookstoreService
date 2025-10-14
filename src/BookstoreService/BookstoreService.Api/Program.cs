@@ -4,6 +4,11 @@ using BookstoreService.Infrastructure.DBContext;
 using BookstoreService.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -51,28 +56,28 @@ builder.Services.AddAuthentication(options =>
         NameClaimType = "nameid"
     };
 
-    options.Events = new JwtBearerEvents
-    {
-        OnTokenValidated = async context =>
-        {
-            var jti = context.Principal.FindFirstValue(JwtRegisteredClaimNames.Jti);
+    // options.Events = new JwtBearerEvents
+    // {
+    //     OnTokenValidated = async context =>
+    //     {
+    //         var jti = context.Principal.FindFirstValue(JwtRegisteredClaimNames.Jti);
 
-            if (string.IsNullOrEmpty(jti))
-            {
-                context.Fail("JWT missing jti.");
-                return;
-            }
+    //         if (string.IsNullOrEmpty(jti))
+    //         {
+    //             context.Fail("JWT missing jti.");
+    //             return;
+    //         }
 
-            var cacheService = context.HttpContext.RequestServices.GetRequiredService<ICacheService>();
+    //         var cacheService = context.HttpContext.RequestServices.GetRequiredService<ICacheService>();
 
-            if (await cacheService.IsBlacklistedAsync(jti))
-            {
-                context.Fail("This token has been revoked.");
-            }
+    //         if (await cacheService.IsBlacklistedAsync(jti))
+    //         {
+    //             context.Fail("This token has been revoked.");
+    //         }
 
-            await Task.CompletedTask;
-        }
-    };
+    //         await Task.CompletedTask;
+    //     }
+    // };
 
 });
 
