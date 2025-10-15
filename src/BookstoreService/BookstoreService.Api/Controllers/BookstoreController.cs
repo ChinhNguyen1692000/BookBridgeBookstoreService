@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace BookstoreService.Api.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/bookstores")]
     public class BookstoreController : ControllerBase
     {
         private readonly IBookstoreService _service;
