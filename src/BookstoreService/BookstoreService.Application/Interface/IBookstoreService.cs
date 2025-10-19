@@ -16,5 +16,6 @@ namespace BookstoreService.Application.Interface
         Task<Bookstore> UpdateAsync(BookstoreUpdateRequest request);
         Task<Bookstore> GetByIdAsync(int id);
         Task<PagedResult<Bookstore>> GetAllAsync(int pageNo, int pageSize);
+        Task<BookstoreDTO> GetByOwnerId(string ownerId);
     }
 }
