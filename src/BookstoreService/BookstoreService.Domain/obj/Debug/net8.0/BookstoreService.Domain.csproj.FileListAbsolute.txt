@@ -34,3 +34,15 @@ E:\check-merge\bookbridge-backend\src\Services\BookstoreService\BookstoreService
 E:\check-merge\bookbridge-backend\src\Services\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\refint\BookstoreService.Domain.dll
 E:\check-merge\bookbridge-backend\src\Services\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.pdb
 E:\check-merge\bookbridge-backend\src\Services\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\ref\BookstoreService.Domain.dll
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\bin\Debug\net8.0\BookstoreService.Domain.deps.json
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\bin\Debug\net8.0\BookstoreService.Domain.dll
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\bin\Debug\net8.0\BookstoreService.Domain.pdb
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.AssemblyInfoInputs.cache
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.AssemblyInfo.cs
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.csproj.CoreCompileInputs.cache
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.sourcelink.json
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.dll
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\refint\BookstoreService.Domain.dll
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\BookstoreService.Domain.pdb
+D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Domain\obj\Debug\net8.0\ref\BookstoreService.Domain.dll

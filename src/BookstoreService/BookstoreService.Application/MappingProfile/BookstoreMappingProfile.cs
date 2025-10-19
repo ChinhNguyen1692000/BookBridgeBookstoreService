@@ -13,10 +13,21 @@ namespace BookstoreService.Application.MappingProfile
     {
         public BookstoreMappingProfile()
         {
-            CreateMap<BookstoreCreateRequest, Bookstore>();
+            // Create
+            CreateMap<BookstoreCreateRequest, Bookstore>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore())       // Tự sinh PK
+                .ForMember(dest => dest.ImageUrl, opt => opt.Ignore()) // Cloudinary xử lý
+                .ForMember(dest => dest.CreatedDate, opt => opt.Ignore()) // Service set
+                .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore())
+                .ForMember(dest => dest.IsActive, opt => opt.Ignore()); // Service set
+
+            // Update
             CreateMap<BookstoreUpdateRequest, Bookstore>()
-                .ForMember(dest => dest.CreatedDate, opt => opt.Ignore())
-                .ForMember(dest => dest.IsActive, opt => opt.Ignore());
+                .ForMember(dest => dest.Id, opt => opt.Ignore())       // Service set
+                .ForMember(dest => dest.ImageUrl, opt => opt.Ignore()) // Cloudinary xử lý
+                .ForMember(dest => dest.CreatedDate, opt => opt.Ignore()) // Giữ nguyên
+                .ForMember(dest => dest.UpdatedAt, opt => opt.Ignore())
+                .ForMember(dest => dest.IsActive, opt => opt.Ignore()); // Giữ nguyên
         }
     }
 }

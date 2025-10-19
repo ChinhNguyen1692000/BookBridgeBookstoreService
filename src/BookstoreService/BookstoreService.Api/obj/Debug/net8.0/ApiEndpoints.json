@@ -2,7 +2,7 @@
   {
     "ContainingType": "BookstoreService.Api.Controllers.BookstoreController",
     "Method": "GetAll",
-    "RelativePath": "api/Bookstore",
+    "RelativePath": "api/bookstores",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -23,15 +23,35 @@
   {
     "ContainingType": "BookstoreService.Api.Controllers.BookstoreController",
     "Method": "Create",
-    "RelativePath": "api/Bookstore",
+    "RelativePath": "api/bookstores",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "BookstoreService.Application.Models.BookstoreCreateRequest",
-        "IsRequired": true
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OwnerId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -39,15 +59,35 @@
   {
     "ContainingType": "BookstoreService.Api.Controllers.BookstoreController",
     "Method": "Update",
-    "RelativePath": "api/Bookstore",
+    "RelativePath": "api/bookstores",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "BookstoreService.Application.Models.BookstoreUpdateRequest",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -55,7 +95,7 @@
   {
     "ContainingType": "BookstoreService.Api.Controllers.BookstoreController",
     "Method": "GetById",
-    "RelativePath": "api/Bookstore/{id}",
+    "RelativePath": "api/bookstores/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -71,8 +111,8 @@
   {
     "ContainingType": "BookstoreService.Api.Controllers.BookstoreController",
     "Method": "Ban",
-    "RelativePath": "api/Bookstore/ban/{id}",
-    "HttpMethod": "POST",
+    "RelativePath": "api/bookstores/ban/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -85,24 +125,13 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "BookstoreService.Api.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "BookstoreService.Api.Controllers.BookstoreController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/healthz",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookstoreService.Api.WeatherForecast, BookstoreService.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

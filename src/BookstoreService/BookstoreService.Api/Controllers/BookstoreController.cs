@@ -18,10 +18,9 @@ namespace BookstoreService.Api.Controllers
             _service = service;
         }
 
-        [HttpGet("/api/healthz")] // <-- Change: Explicitly set the absolute path
+        [HttpGet("/api/healthz")]
         public IActionResult HealthCheck() => Ok("Healthy");
 
-        // GET: api/bookstore
         [HttpGet]
         public async Task<IActionResult> GetAll([FromQuery] int pageNo, [FromQuery] int pageSize)
         {
@@ -29,9 +28,10 @@ namespace BookstoreService.Api.Controllers
             return Ok(list);
         }
 
-        // POST: api/bookstore
+        // POST: api/bookstores
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] BookstoreCreateRequest request)
+        [Consumes("multipart/form-data")] // <-- Nhận form-data
+        public async Task<IActionResult> Create([FromForm] BookstoreCreateRequest request)
         {
             try
             {
@@ -44,7 +44,7 @@ namespace BookstoreService.Api.Controllers
             }
         }
 
-        // GET: api/bookstore/{id}
+        // GET: api/bookstores/{id}
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -53,9 +53,10 @@ namespace BookstoreService.Api.Controllers
             return Ok(bookstore);
         }
 
-        // PUT: api/bookstore
+        // PUT: api/bookstores
         [HttpPut]
-        public async Task<IActionResult> Update([FromBody] BookstoreUpdateRequest request)
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Update([FromForm] BookstoreUpdateRequest request)
         {
             try
             {
@@ -68,7 +69,7 @@ namespace BookstoreService.Api.Controllers
             }
         }
 
-        // POST: api/bookstore/ban/{id}
+        // DELETE: api/bookstores/ban/{id}
         [HttpDelete("ban/{id}")]
         public async Task<IActionResult> Ban(int id)
         {
@@ -88,6 +89,5 @@ namespace BookstoreService.Api.Controllers
             var result = await _service.GetByOwnerId(ownerId);
             return Ok(result);
         }
-
     }
 }

@@ -30,6 +30,7 @@ builder.Services.AddScoped<BookstoreRepository>();
 
 // Service
 builder.Services.AddScoped<IBookstoreService, BookstoreService.Application.Service.BookstoreService>();
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 
 
 // 3. JWT

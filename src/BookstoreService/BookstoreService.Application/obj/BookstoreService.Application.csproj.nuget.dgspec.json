@@ -1,42 +1,49 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj": {}
+    "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj": {}
   },
   "projects": {
-    "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj": {
+    "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj",
+        "projectUniqueName": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj",
         "projectName": "BookstoreService.Application",
-        "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj",
-        "packagesPath": "C:\\Users\\Chinh\\.nuget\\packages\\",
-        "outputPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\obj\\",
+        "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\BookstoreService.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Chinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
-                "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj"
+              "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
+                "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj"
               },
-              "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj": {
-                "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj"
+              "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj": {
+                "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj"
               },
-              "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj": {
-                "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj"
+              "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj": {
+                "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj"
               },
-              "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\Common.csproj": {
-                "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\Common.csproj"
+              "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\Common.csproj": {
+                "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\Common.csproj"
               }
             }
           }
@@ -55,6 +62,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.8, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -71,26 +88,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
+    "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj",
+        "projectUniqueName": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj",
         "projectName": "BookstoreService.Domain",
-        "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj",
-        "packagesPath": "C:\\Users\\Chinh\\.nuget\\packages\\",
-        "outputPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\obj\\",
+        "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Chinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -129,37 +153,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj": {
+    "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj",
+        "projectUniqueName": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj",
         "projectName": "BookstoreService.Infrastructure",
-        "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Chinh\\.nuget\\packages\\",
-        "outputPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\obj\\",
+        "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\BookstoreService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Chinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
-                "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj"
+              "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj": {
+                "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Domain\\BookstoreService.Domain.csproj"
               },
-              "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\Common.csproj": {
-                "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\Common.csproj"
+              "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\Common.csproj": {
+                "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\Common.csproj"
               }
             }
           }
@@ -228,26 +259,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj": {
+    "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
+        "projectUniqueName": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
         "projectName": "BookstoreService.Messaging",
-        "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
-        "packagesPath": "C:\\Users\\Chinh\\.nuget\\packages\\",
-        "outputPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\obj\\",
+        "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\BookstoreService.Messaging.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\BookstoreService\\BookstoreService.Messaging\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Chinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -286,26 +324,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\Common.csproj": {
+    "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\Chinh\\.nuget\\packages\\",
-        "outputPath": "E:\\My githhub repo(UserSerivce)\\BookBridgeBookstoreService\\src\\Common\\obj\\",
+        "projectPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\LapTrinh\\PRM_BOOK\\bookbridge-deploy\\BookBridgeBookStoreService\\BookBridgeBookstoreService\\src\\Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Chinh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -372,7 +417,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
