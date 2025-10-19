@@ -17,5 +17,9 @@ namespace BookstoreService.Infrastructure.Repositories
             await _context.SaveChangesAsync();
             return !bs.IsActive;
         }
+        public async Task<Bookstore> GetByOwnerId(string ownerId)
+        {
+            return await _dbSet.FirstOrDefaultAsync(bs => bs.OwnerId.Equals(ownerId));
+        }
     }
 }

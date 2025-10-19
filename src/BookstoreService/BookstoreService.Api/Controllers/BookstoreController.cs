@@ -23,7 +23,7 @@ namespace BookstoreService.Api.Controllers
 
         // GET: api/bookstore
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] int pageNo,[FromQuery] int pageSize)
+        public async Task<IActionResult> GetAll([FromQuery] int pageNo, [FromQuery] int pageSize)
         {
             var list = await _service.GetAllAsync(pageNo, pageSize);
             return Ok(list);
@@ -82,5 +82,12 @@ namespace BookstoreService.Api.Controllers
                 return NotFound(new { message = ex.Message });
             }
         }
+        [HttpGet("owner/{ownerId}")]
+        public async Task<IActionResult> GetByOwnerId(string ownerId)
+        {
+            var result = await _service.GetByOwnerId(ownerId);
+            return Ok(result);
+        }
+
     }
 }

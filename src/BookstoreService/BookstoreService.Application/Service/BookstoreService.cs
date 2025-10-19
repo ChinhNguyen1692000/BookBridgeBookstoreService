@@ -59,6 +59,10 @@ namespace BookstoreService.Application.Service
                 throw new Exception("Id is null");
             return await _repo.GetByIdAsync(id);
         }
+        public async Task<Bookstore> GetByOwnerId(string ownerId)
+        {
+            return await _repo.GetByOwnerId(ownerId);
+        }
 
     }
 }
