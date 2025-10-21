@@ -38,3 +38,23 @@ D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBook
 D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.pdb
 D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.genruntimeconfig.cache
 D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\ref\BookstoreService.Infrastructure.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\BookstoreService.Infrastructure.deps.json
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\BookstoreService.Infrastructure.runtimeconfig.json
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\BookstoreService.Infrastructure.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\BookstoreService.Infrastructure.pdb
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\BookstoreService.Domain.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\Common.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\Common.pdb
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\bin\Debug\net8.0\BookstoreService.Domain.pdb
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.csproj.AssemblyReference.cache
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.AssemblyInfoInputs.cache
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.AssemblyInfo.cs
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.csproj.CoreCompileInputs.cache
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.sourcelink.json
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\Bookstor.AFB8551A.Up2Date
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\refint\BookstoreService.Infrastructure.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.pdb
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\BookstoreService.Infrastructure.genruntimeconfig.cache
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Infrastructure\obj\Debug\net8.0\ref\BookstoreService.Infrastructure.dll

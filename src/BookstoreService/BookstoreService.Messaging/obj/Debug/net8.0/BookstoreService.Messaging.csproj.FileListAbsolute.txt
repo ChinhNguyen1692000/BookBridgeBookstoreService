@@ -46,3 +46,15 @@ D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBook
 D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\refint\BookstoreService.Messaging.dll
 D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.pdb
 D:\LapTrinh\PRM_BOOK\bookbridge-deploy\BookBridgeBookStoreService\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\ref\BookstoreService.Messaging.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\bin\Debug\net8.0\BookstoreService.Messaging.deps.json
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\bin\Debug\net8.0\BookstoreService.Messaging.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\bin\Debug\net8.0\BookstoreService.Messaging.pdb
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.AssemblyInfoInputs.cache
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.AssemblyInfo.cs
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.csproj.CoreCompileInputs.cache
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.sourcelink.json
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\refint\BookstoreService.Messaging.dll
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\BookstoreService.Messaging.pdb
+E:\My githhub repo(UserSerivce)\BookBridgeBookstoreService\src\BookstoreService\BookstoreService.Messaging\obj\Debug\net8.0\ref\BookstoreService.Messaging.dll
